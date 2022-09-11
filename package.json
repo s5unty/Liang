@@ -1,7 +1,7 @@
 {
   "name": "Shuang",
   "version": "5.18.0",
-  "description": "帮助你快速上手双拼输入法",
+  "description": "帮助你快速上手二笔双拼输入法",
   "scripts": {
     "clear": "node scripts/clear.js",
     "bundle": "node scripts/bundle.js",
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/BlueSky-07/Shuang.git"
   },
   "keywords": [
-    "双拼",
+    "二笔双拼",
     "练习"
   ],
   "author": "BlueSky",

@@ -32,12 +32,12 @@ Shuang.app.action = {
         .map(scheme => scheme.slice(0, -2))
     }
     const schemeOptions = [
-      { disabled: true, text: '常见' },
+      { disabled: true, text: '超强系列' },
       ...schemes.common,
-      { disabled: true, text: '小众' },
-      ...schemes.uncommon,
-      { disabled: true, text: '爱好者' },
-      ...schemes.rare,
+//    { disabled: true, text: '原版二笔' },
+//    ...schemes.uncommon,
+//    { disabled: true, text: '其它二笔' },
+//    ...schemes.rare,
     ]
 
     renderSelect($('#scheme-select'), schemeOptions, value => {
@@ -209,11 +209,11 @@ Shuang.app.action = {
         Shuang.core.current = Shuang.core.model.getByOrder()
         break
       case 'hard-random':
-        Shuang.core.current = Shuang.core.model.getHardRandom()
+        Shuang.core.current = Shuang.core.model.getRandom()
         break
       case 'hard-random-without-pinyin':
         do {
-          Shuang.core.current = Shuang.core.model.getHardRandom()
+          Shuang.core.current = Shuang.core.model.getRandom()
         } while (Array.isArray(Shuang.core.current.dict))
         break
     }

@@ -5,7 +5,7 @@ Shuang.app.setting = {
   reload() {
     /** Reading Storage or Using Default **/
     this.config = {
-      scheme: readStorage('scheme') || 'ziranma',
+      scheme: readStorage('scheme') || 'cqkm',
       mode: readStorage('mode') || 'all-random',
       showPic: readStorage('showPic') || 'true',
       darkMode: readStorage('darkMode') || detectDarkMode().toString(),

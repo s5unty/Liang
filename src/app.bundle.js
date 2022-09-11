@@ -72,7 +72,6 @@ Shuang.resource.dict = {
     "d": "败",
     "e": "备",
     "f": "北",
-    "g": "吧",
     "h": "奔",
     "i": "被",
     "j": "帮",
@@ -126,19 +125,16 @@ Shuang.resource.dict = {
     "m": "顶",
     "n": "队",
     "o": "斗",
-    "q": "的",
     "r": "答",
     "s": "淡",
     "u": "店",
     "v": "导",
-    "x": "对",
     "y": "断"
   },
   "e": {
     ";": "而",
     "d": "恩",
     "e": "儿",
-    "h": "而",
     "j": "二",
     "m": "恶",
     "n": "阿"
@@ -172,7 +168,6 @@ Shuang.resource.dict = {
     "e": "够",
     "f": "格",
     "g": "跟",
-    "h": "个",
     "i": "该",
     "j": "规",
     "k": "光",
@@ -205,7 +200,6 @@ Shuang.resource.dict = {
     "n": "孩",
     "o": "寒",
     "q": "皇",
-    "r": "和",
     "s": "海",
     "t": "后",
     "u": "护",
@@ -215,7 +209,6 @@ Shuang.resource.dict = {
   },
   "i": {
     ";": "以",
-    "x": "以"
   },
   "j": {
     ";": "就",
@@ -229,7 +222,6 @@ Shuang.resource.dict = {
     "h": "件",
     "i": "记",
     "j": "静",
-    "k": "车",
     "l": "境",
     "m": "救",
     "n": "景",
@@ -250,7 +242,6 @@ Shuang.resource.dict = {
     "e": "狂",
     "f": "卡",
     "g": "口",
-    "h": "会",
     "j": "开",
     "l": "块",
     "m": "克",
@@ -269,7 +260,6 @@ Shuang.resource.dict = {
     "g": "路",
     "h": "列",
     "i": "良",
-    "j": "弄",
     "k": "连",
     "l": "露",
     "m": "两",
@@ -290,7 +280,6 @@ Shuang.resource.dict = {
     "f": "模",
     "g": "吗",
     "h": "面",
-    "k": "万",
     "m": "某",
     "n": "明",
     "o": "慢",
@@ -326,8 +315,6 @@ Shuang.resource.dict = {
     "c": "朋",
     "g": "品",
     "h": "便",
-    "i": "房",
-    "l": "平",
     "m": "配",
     "o": "怕",
     "q": "片",
@@ -339,7 +326,6 @@ Shuang.resource.dict = {
   "q": {
     ";": "起",
     "d": "且",
-    "f": "卡",
     "g": "器",
     "h": "企",
     "i": "请",
@@ -357,7 +343,6 @@ Shuang.resource.dict = {
   "r": {
     ";": "人",
     "a": "若",
-    "b": "如",
     "e": "然",
     "h": "仍",
     "i": "认",
@@ -393,18 +378,14 @@ Shuang.resource.dict = {
     "u": "商",
     "v": "司",
     "w": "受",
-    "x": "参",
     "y": "数"
   },
   "t": {
     ";": "他",
-    "b": "她",
     "c": "脱",
     "d": "图",
     "e": "条",
     "g": "跳",
-    "h": "他",
-    "i": "调",
     "j": "替",
     "k": "堂",
     "l": "土",
@@ -434,7 +415,7 @@ Shuang.resource.dict = {
     "v": "种",
     "w": "于",
     "x": "对",
-    ";": "正"
+    "z": "正"
   },
   "v": {
     ";": "这"
@@ -463,9 +444,7 @@ Shuang.resource.dict = {
     ";": "想",
     "b": "姓",
     "c": "乡",
-    "d": "见",
     "e": "系",
-    "f": "想",
     "g": "响",
     "h": "仙",
     "i": "谢",
@@ -492,19 +471,14 @@ Shuang.resource.dict = {
     "e": "迎",
     "f": "杨",
     "g": "员",
-    "h": "有",
-    "i": "说",
     "j": "元",
     "k": "医",
     "l": "越",
     "m": "燕",
-    "n": "也",
     "r": "移",
     "s": "演",
     "u": "摇",
     "v": "异",
-    "w": "谷",
-    "x": "以",
     "y": "烟"
   },
   "z": {
@@ -659,7 +633,7 @@ Shuang.app.setting = {
   reload() {
     /** Reading Storage or Using Default **/
     this.config = {
-      scheme: readStorage('scheme') || 'ziranma',
+      scheme: readStorage('scheme') || 'cqkm',
       mode: readStorage('mode') || 'all-random',
       showPic: readStorage('showPic') || 'true',
       darkMode: readStorage('darkMode') || detectDarkMode().toString(),

@@ -34,12 +34,13 @@
   },
   "homepage": "https://api.ihint.me/shuang",
   "devDependencies": {
-    "@babel/cli": "latest",
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
     "archiver": "latest",
-    "babel-preset-minify": "latest",
-    "clean-css-cli": "latest",
+    "babel-preset-minify": "^0.5.2",
+    "clean-css": "^5.3.1",
+    "clean-css-cli": "^5.6.1",
     "fs-extra": "^10.1.0",
     "html-minifier": "latest",
     "serve": "latest"
